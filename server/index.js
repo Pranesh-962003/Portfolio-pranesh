@@ -16,7 +16,7 @@ app.use(express.static('public'))
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/Projects').then(console.log('connected')
+mongoose.connect('mongodb+srv://Pranesh:Pranesh962003@cluster0.x0xuf.mongodb.net').then(console.log('connected')
 ).catch(err=>console.log(err)
 )
 
